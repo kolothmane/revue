@@ -1,0 +1,571 @@
+\documentclass[12pt,a4paper]{article}
+
+\usepackage[french]{babel}
+\usepackage[utf8]{inputenc}
+\usepackage[T1]{fontenc}
+\usepackage{geometry}
+\usepackage{booktabs}
+\usepackage{longtable}
+\usepackage{array}
+\usepackage{hyperref}
+\usepackage{setspace}
+\usepackage{parskip}
+
+% Allow URLs to break across lines in bibliography
+\def\UrlBreaks{\do\/\do-\do\_\do.\do:}
+
+\geometry{
+  top=2.5cm,
+  bottom=2.5cm,
+  left=3cm,
+  right=2.5cm
+}
+
+\setlength{\parskip}{6pt}
+\setlength{\parindent}{0pt}
+
+\hypersetup{
+  colorlinks=true,
+  linkcolor=black,
+  urlcolor=blue,
+  citecolor=black
+}
+
+\begin{document}
+
+% ─── PAGE DE TITRE ───────────────────────────────────────────────────────────
+\begin{titlepage}
+  \centering
+  \vspace*{2cm}
+  {\Large\bfseries EMLV\\[0.4em]MSc Digital Business Analytics\par}
+  \vspace{2cm}
+  {\LARGE\bfseries Revue de littérature\par}
+  \vspace{1cm}
+  {\Large Comment l'intelligence artificielle influence-t-elle le\\[0.3em]
+  bien-être du consommateur~?\par}
+  \vspace{0.5cm}
+  {\large Entre gains d'efficacité et risques liés aux données\par}
+  \vspace{2cm}
+  {\large Othmane Tazouti\par}
+  \vspace{1cm}
+  {\large Année académique 2025--2026\par}
+\end{titlepage}
+
+% ─── TABLE DES MATIÈRES ──────────────────────────────────────────────────────
+\tableofcontents
+\newpage
+
+% ─── 1. INTRODUCTION ─────────────────────────────────────────────────────────
+\section{Introduction}
+
+L'intelligence artificielle (IA) bouleverse complètement les relations entre entreprises et
+individus, qu'il s'agisse de consommateurs, d'employés ou de citoyens. Aujourd'hui, avec
+la généralisation des systèmes algorithmiques dans les entreprises pour optimiser leurs
+opérations, le bien-être des parties prenantes devient un enjeu capital. Cette revue de
+littérature s'attache justement à cette problématique : Comment l'IA influence-t-elle le
+bien-être du consommateur, entre gains d'efficacité et risques liés aux données~?
+
+Pour y répondre, on s'appuie sur 23~articles scientifiques récents (2022--2025) qui étudient
+l'IA dans la gestion des ressources humaines~(GRH), le comportement organisationnel
+et l'expérience des parties prenantes. Même si ces travaux se concentrent surtout sur le
+domaine organisationnel, ils révèlent des mécanismes transposables au consommateur~:
+personnalisation algorithmique, analyse prédictive, automatisation des services, surveillance
+des données et enjeux éthiques. Une étude bibliométrique pionnière de Palos-Sánchez
+et al.~(2022) a établi les jalons de ce champ, montrant que la recherche sur l'IA
+appliquée à la GRH est en croissance constante, avec une concentration encore forte sur
+le recrutement et la sélection. La bibliométrie récente de Soulami et al.~(2024) confirme
+cette dynamique et révèle quatre grands clusters thématiques -- éthique, autonomie au
+travail, stress de l'employé et santé mentale -- illustrant la manière dont l'IA façonne
+profondément l'environnement professionnel.
+
+Cette revue se construit autour de cinq axes thématiques. D'abord, on s'intéresse aux gains
+d'efficacité grâce à l'IA pour optimiser les process et améliorer l'expérience utilisateur.
+Ensuite, on analyse les risques liés aux données, dont la protection de la vie privée et les
+biais algorithmiques. Troisième axe, l'engagement et le bien-être individuel face à l'IA.
+Quatrième volet, les craintes de substitution et l'anxiété technologique. Cinquième, les
+cadres pour une IA centrée sur l'humain. Enfin, une synthèse critique et quelques pistes
+pour des recherches futures.
+
+% ─── 2. GAINS D'EFFICACITÉ ───────────────────────────────────────────────────
+\section{Gains d'efficacité et optimisation par l'IA}
+
+\subsection{Automatisation des processus et réduction des délais}
+
+Parmi les bénéfices les plus étudiés de l'IA, on trouve l'automatisation des tâches répétitives
+et la chute spectaculaire des délais opérationnels. Kayusi et al.~(2025), à travers leur enquête
+quantitative auprès de 316~professionnels RH, montrent que l'analytique RH basée sur
+l'IA a réduit le temps de recrutement de 51,1~\% et augmenté la précision des décisions de
+50,8~\%. Ces chiffres rejoignent ceux de Chheda et al.~(2025), qui, après l'analyse de
+1~000~dossiers d'employés, constatent des gains notables en efficacité pour le recrutement et
+la rétention grâce aux algorithmes prédictifs.
+
+Sur l'expérience des employés, Mahmood et al.~(2025) rapportent que 75~\% des organisations
+consultées utilisent l'IA pour le recrutement et 85~\% ont automatisé la gestion de la paie.
+L'intégration technologique prend clairement une grande ampleur. Pandit~(2025) et
+Biswas et al.~(2025) confirment que l'IA accélère l'accès aux talents, réduit les erreurs
+humaines et optimise l'allocation des ressources.
+
+Dans une étude analytique fondée sur une revue de littérature couvrant la période 2019--2025,
+Almuhanna~(2025) montre que l'IA redéfinit en profondeur les fonctions RH~-- du recrutement
+à la gestion des talents, en passant par l'évaluation des performances et la rémunération~--
+en améliorant la précision décisionnelle et l'équité organisationnelle. L'auteure souligne
+toutefois que ces bénéfices s'accompagnent de défis liés à l'éthique, à la transparence
+algorithmique et à la gouvernance des données. Dans le contexte saoudien, elle observe
+une disposition avancée à adopter des solutions RH pilotées par l'IA, conformément à la
+Vision 2030, tout en insistant sur la nécessité de développer davantage les compétences
+numériques.
+
+Chez le consommateur, ces gains se traduisent par un service plus rapide, des recommandations
+personnalisées et une prise en charge des demandes accélérée, ce qui améliore
+nettement le bien-être ressenti.
+
+\subsection{Personnalisation et analyse prédictive}
+
+L'IA permet une personnalisation jamais vue des interactions. Singh~(2025) explique que les
+systèmes IA analysent des tonnes de données comportementales pour adapter les parcours
+de formation et développement à chaque profil. Kessavane~(2025) souligne l'utilisation du
+machine learning pour des évaluations en continu, apportant un feedback en temps réel et
+sur mesure.
+
+Rathore et Rathore~(2024) détaillent comment le traitement du langage naturel~(NLP) et
+le machine learning servent à prédire le turnover ou analyser le ressenti, des outils d'abord
+déployés dans les RH mais qui trouvent des équivalents directs pour le client~: chatbots,
+moteurs de recommandation, systèmes de tarification dynamique reposent sur ces mêmes
+bases.
+
+Sharma et Gupta~(2025), après une étude mixte auprès de 320~RH indiens et une modélisation
+PLS-SEM, montrent que l'IA améliore la décision et la satisfaction quand les systèmes
+paraissent transparents et équitables. Un point clé pour l'adoption par le consommateur.
+
+Dans le domaine de la formation, Wagh~(2025) montre que l'IA et l'automatisation
+révolutionnent le développement des compétences en entreprise, en offrant des plateformes
+d'apprentissage adaptatif qui personnalisent le contenu selon le style d'apprentissage,
+les lacunes et les aspirations de chaque salarié. Des tendances émergentes comme le coaching
+virtuel et la gestion de la performance pilotée par l'IA témoignent d'une montée en
+sophistication de ces outils. Benabou et Touhami~(2025a), dans une analyse bibliométrique
+et systématique de 77~articles, corroborent ces résultats en identifiant le rôle transformateur
+de l'IA dans la GRH -- notamment en formation et développement -- comme l'un des trois
+grands axes de recherche du domaine.
+
+% ─── 3. RISQUES LIÉS AUX DONNÉES ────────────────────────────────────────────
+\section{Risques liés aux données et enjeux éthiques}
+
+\subsection{Protection de la vie privée et surveillance algorithmique}
+
+L'IA fait gagner du temps et de l'efficacité, mais elle soulève aussi de gros soucis en matière
+de données personnelles. Ateeq et al.~(2025) étudient l'impact de l'IA sur les contrats
+psychologiques en entreprise, mettant en garde contre la surveillance excessive. Ils montrent
+que la collecte permanente de données comportementales peut miner la confiance et nuire
+au bien-être psychologique.
+
+Pandit~(2025) pointe la conformité au RGPD et les questions de confidentialité comme des
+défis majeurs. Biswas et al.~(2025) insistent sur le fait que le manque de transparence
+freine l'acceptation des nouvelles technologies. Sundari et al.~(2025), dans une revue
+systématique PRISMA de 78~articles, concluent que la protection des données et la
+gouvernance sont des conditions indispensables pour un usage responsable de l'IA.
+
+Benabou et Touhami~(2025b), dans leur revue systématique PRISMA de 141~études publiées
+entre 2019 et 2025, confirment que la sécurité des données et la prise de décision éthique
+constituent des défis persistants. Leurs travaux montrent que l'IA offre des avantages
+significatifs en matière d'efficacité et d'engagement, mais que des défis subsistent quant
+aux décisions éthiques et au maintien de l'interaction humaine dans les processus RH.
+Cette double nature -- opportunités et risques -- rejoint exactement la tension identifiée
+dans la présente revue entre gains d'efficacité et protection des données.
+
+Chez le consommateur, cela revient à arbitrer entre le bénéfice d'une offre personnalisée
+(qui nécessite des données) et la préservation de son intimité. Ce fameux \emph{privacy
+paradox}, où on affirme tenir à sa vie privée tout en acceptant de partager ses infos, reste
+un champ de recherche clé.
+
+\subsection{Biais algorithmiques et équité}
+
+Les biais algorithmiques, c'est une menace directe pour l'équité -- et pour le bien-être
+des personnes discriminées. Bankins et al.~(2024), dans une revue multiniveaux sur
+68~études empiriques, identifient les biais dans les systèmes d'aide à la décision comme un
+des dangers principaux de l'IA en entreprise. Ces biais sont présents à tous les niveaux
+-- individuel, collectif, organisationnel -- et reflètent souvent les préjugés des données
+d'apprentissage.
+
+Croitoru et al.~(2025), avec le modèle TAM et 150~répondants, démontrent que la perception
+d'équité est un facteur clé d'acceptation de l'IA. Kayusi et al.~(2025) recommandent des
+audits réguliers des algorithmes pour détecter et corriger ces biais. Pour le consommateur,
+cela peut se traduire en tarification discriminatoire, recommandations biaisées ou exclusion
+de certains groupes.
+
+% ─── 4. ENGAGEMENT, SATISFACTION ET BIEN-ÊTRE ───────────────────────────────
+\section{Engagement, satisfaction et bien-être face à l'IA}
+
+\subsection{Mécanismes d'engagement et conditions psychologiques}
+
+Tortorella et al.~(2025) analysent l'impact de l'IA sur l'engagement des employés dans des
+organisations lean, à partir du modèle de Kahn~(1990) avec trois conditions psychologiques~:
+sens, sécurité, disponibilité. Les résultats montrent que l'IA renforce l'engagement -- en
+libérant du temps pour des tâches à haute valeur -- mais peut aussi fragiliser celui-ci si
+les individus perdent le contrôle ou le sens dans leur travail.
+
+Qian et al.~(2025), en s'appuyant sur la théorie de la conservation des ressources~(COR) et
+350~questionnaires, indiquent que l'usage de l'IA au travail stimule l'innovation, mais que
+cet effet dépend du soutien organisationnel et du sentiment de justice. Pour le consommateur
+aussi, l'engagement envers une marque ou un service grandit si l'IA améliore l'expérience
+sans nuire au sentiment de contrôle.
+
+Soulami, Benchekroun et Galiulina~(2024), dans une revue bibliométrique et systématique
+publiée dans \emph{Frontiers in Artificial Intelligence}, analysent 92~articles via
+VOSviewer et approfondissent l'examen de 25~études sélectionnées selon la méthode
+PRISMA. Leur analyse co-occurrentielle dégage quatre grands clusters thématiques au croisement
+IA--bien-être au travail~: l'éthique, l'autonomie au travail, le stress de l'employé et la santé
+mentale. Ces quatre dimensions illustrent la complexité des dynamiques créées par l'IA
+dans l'environnement professionnel. Les auteurs concluent que les organisations doivent
+mettre en place des stratégies de soutien pour atténuer les effets négatifs potentiels de l'IA
+sur le bien-être des employés, tout en tirant parti de ses bénéfices pour renforcer
+l'autonomie et la satisfaction, et pour promouvoir l'innovation permise par l'IA grâce à la
+créativité et au sentiment d'auto-efficacité des collaborateurs. Ces conclusions, obtenues
+dans un contexte organisationnel, s'appliquent directement aux consommateurs~: les
+services algorithmiques bien conçus peuvent stimuler l'autonomie et la satisfaction, tandis
+que ceux qui sont opaques ou contraignants génèrent stress et méfiance.
+
+Liu et Chen~(2025), dans une étude empirique menée auprès de 202~répondants à
+l'Université de Nanjing Tech~(Chine), s'appuient sur la théorie personne-environnement
+(\emph{person-environment fit}) pour explorer l'impact de l'usage de l'IA sur l'engagement
+professionnel (\emph{career commitment}). Ils montrent que l'usage de l'IA a un effet
+positif sur l'engagement professionnel, et que ce lien est médiatisé par le \emph{job crafting}~:
+les employés qui adaptent proactivement leurs tâches en réponse aux outils IA renforcent
+leur identité professionnelle et leur engagement à long terme. Ce résultat souligne que
+l'effet positif de l'IA sur le bien-être n'est pas automatique~; il passe par la capacité
+des individus à se réapproprier leur travail, un mécanisme transposable à la relation
+consommateur--service algorithmique.
+
+\subsection{Satisfaction et perception de la qualité de service}
+
+Kayusi et al.~(2025) observent une hausse de 51,3~\% de la satisfaction des parties prenantes
+après l'implémentation d'analytique RH basée sur l'IA. Mahmood et al.~(2025) confirment
+que les technologies RH améliorent vraiment l'expérience employé quand elles sont bien
+intégrées. Sharma et Gupta~(2025) ajoutent que la satisfaction dépend de la confiance
+dans le système et du sentiment de transparence.
+
+Sharma et al.~(2025), après une analyse bibliométrique sur plus de 11~291~articles, notent
+que l'engagement et la satisfaction sont les thèmes de recherche les plus dynamiques à
+l'intersection IA--comportement organisationnel. Cette tendance montre qu'on accorde de
+plus en plus d'importance au facteur humain dans le déploiement de l'IA -- une réalité
+qui vaut aussi pour la relation entre consommateur et services algorithmiques.
+
+% ─── 5. ANXIÉTÉ TECHNOLOGIQUE ────────────────────────────────────────────────
+\section{Anxiété technologique et craintes de substitution}
+
+\subsection{Peur du remplacement et perte de contrôle}
+
+L'anxiété face à l'IA impacte sérieusement le bien-être. Qian et al.~(2025), grâce à la
+théorie COR, montrent que le sentiment de menace sur ses ressources (compétences, emploi,
+autonomie) provoque du stress et réduit le bien-être. Bankins et al.~(2024) remarquent
+que la peur d'être remplacé par l'IA affecte la motivation, l'identité professionnelle et le
+contrat psychologique entre individu et organisation.
+
+Ateeq et al.~(2025) détaillent comment l'IA modifie les contrats psychologiques en
+entreprise. Ils observent un phénomène de «~rupture de contrat psychologique~» quand
+l'IA est déployée sans explication claire, sans formation ou sans recours. Cela se transpose
+facilement à la relation client--entreprise~: lancer un chatbot sans alternative humaine, ou
+une décision opaque, peut être vécu comme une rupture d'engagement de service.
+
+Liu et Chen~(2025) affinent cette analyse en introduisant la notion d'\emph{AI awareness}~--
+la perception par l'individu de la menace que représente l'IA pour son développement de
+carrière. Leurs résultats montrent que cette conscience joue un rôle modérateur négatif~:
+un niveau élevé d'AI awareness réduit la propension au job crafting et atténue ainsi
+l'effet positif de l'usage de l'IA sur l'engagement professionnel. Autrement dit, plus un
+individu perçoit l'IA comme une menace, moins il est enclin à adapter proactivement son
+travail, et moins il tire de bénéfices de l'adoption de ces outils. Ce mécanisme vaut
+également pour le consommateur~: la méfiance envers les systèmes algorithmiques peut
+freiner l'adoption et réduire les gains de bien-être qui en découlent.
+
+\subsection{Nécessité de montée en compétences}
+
+Face aux évolutions induites par l'IA, tout le monde s'accorde à dire qu'il faut investir
+dans la formation et le développement des compétences. Sundari et al.~(2025) préconisent
+un cadre IA centré sur l'humain avec des programmes de requalification. Singh~(2025) et
+Biswas et al.~(2025) insistent sur la préparation des individus à collaborer avec les systèmes
+intelligents plutôt que de les subir.
+
+Croitoru et al.~(2025), avec le modèle TAM, montrent que l'utilité perçue et la facilité
+d'utilisation sont des antécédents majeurs à l'acceptation de l'IA. Résultat~: la littératie
+numérique du consommateur devient un facteur clé pour l'impact de l'IA sur son bien-être~;
+un client informé et compétent profite mieux des services algorithmiques et protège ses
+intérêts.
+
+Dans ce même esprit, Wagh~(2025) préconise d'investir massivement dans les plateformes
+d'apprentissage pilotées par l'IA, lesquelles permettent un suivi des résultats de formation
+et une prévision de la progression de carrière. Il souligne par ailleurs l'émergence d'un
+nouveau rôle pour les professionnels RH~: celui de «~facilitateur de la transformation numérique~»,
+compétent en matière d'IA et de littératie des données. Ce rôle émergent a son équivalent
+côté consommateur~: le «~consommateur averti~» doit maîtriser les codes des services
+algorithmiques pour en tirer le meilleur parti tout en protégeant ses données.
+
+% ─── 6. VERS UNE IA CENTRÉE SUR L'HUMAIN ────────────────────────────────────
+\section{Vers une IA centrée sur l'humain}
+
+\subsection{Cadres théoriques et gouvernance éthique}
+
+Plusieurs auteurs proposent des cadres pour un déploiement éthique et centré sur l'humain
+de l'IA. Sundari et al.~(2025) développent un cadre intégratif autour de quatre piliers~:
+transparence, équité des décisions, protection des données et autonomie individuelle.
+
+Bankins et al.~(2024) plaident pour une approche multiniveaux, car l'IA touche l'individu,
+le groupe et l'organisation -- et les interventions doivent suivre.
+
+Ateeq et al.~(2025) proposent un modèle de gouvernance éthique basé sur la préservation
+du contrat psychologique. Ils recommandent la création de comités éthiques, des procédures
+de recours et des mécanismes d'explicabilité des décisions IA. Tortorella et al.~(2025)
+ajoutent que l'IA dans les organisations lean doit garder l'amélioration continue et le
+respect des personnes.
+
+Benabou et Touhami~(2025b), dans leur revue systématique PRISMA de 141~études, identifient
+la collaboration homme--IA comme l'un des trois grands thèmes structurant la recherche
+contemporaine sur l'IA en GRH. Ils recommandent d'augmenter -- plutôt que de remplacer~--
+les rôles humains par des outils IA, et insistent sur la nécessité de cadres éthiques pour
+guider l'intégration stratégique de ces technologies. Benabou et Touhami~(2025a) arrivent
+aux mêmes conclusions dans leur analyse bibliométrique de 77~articles~: la collaboration
+homme--IA émerge comme un paradigme structurant, et les organisations doivent naviguer
+avec discernement entre les opportunités et les défis que pose l'IA. Ces deux contributions
+complémentaires des mêmes auteurs, publiées dans des revues distinctes, renforcent
+la robustesse de ce constat.
+
+\subsection{Équilibre entre automatisation et intervention humaine}
+
+La question de l'équilibre automation--humain revient dans tout le corpus. Sharma et
+Gupta~(2025) montrent que les systèmes hybrides, associant IA et jugement humain,
+donnent de meilleurs résultats que les systèmes purement automatisés. Kessavane~(2025)
+recommande que les évaluations IA soient toujours validées par un décideur humain.
+
+Pandit~(2025) et Singh~(2025) insistent sur la nécessité de garder l'humain «~dans la
+boucle~» (\emph{human-in-the-loop}) pour les décisions sensibles. Pour le consommateur,
+ce principe implique le droit de contester une décision IA, d'obtenir un interlocuteur
+humain et de connaître les critères de personnalisation. L'article~22 du RGPD, qui protège
+contre la décision entièrement automatisée, formalise cette exigence sur le plan réglementaire.
+
+% ─── 7. SYNTHÈSE ET DISCUSSION ───────────────────────────────────────────────
+\section{Synthèse et discussion critique}
+
+\subsection{Tableau récapitulatif}
+
+\begin{longtable}{>{\bfseries\raggedright}p{3.4cm} >{\raggedright}p{6.2cm} >{\raggedright\arraybackslash}p{4.6cm}}
+\toprule
+Thème & Principaux résultats & Sources clés \\
+\midrule
+\endhead
+\bottomrule
+\endfoot
+
+Gains d'efficacité
+  & Réduction du temps de recrutement (--51,1\,\%), précision (+50,8\,\%),
+    automatisation (85\,\%~paie)
+  & Kayusi et al. (2025), Mahmood et al. (2025), Chheda et al. (2025) \\[6pt]
+
+Personnalisation
+  & Analyse prédictive, NLP, feedback en temps réel, adaptation des
+    parcours ; apprentissage adaptatif et coaching virtuel
+  & Rathore \& Rathore~(2024), Singh~(2025), Kessavane~(2025),
+    Wagh~(2025) \\[6pt]
+
+Vie privée et données
+  & Risques RGPD, surveillance, perte de confiance, \emph{privacy
+    paradox}~; défis éthiques et de sécurité des données
+  & Ateeq et al.~(2025), Pandit~(2025), Sundari et al.~(2025),
+    Benabou \& Touhami~(2025b) \\[6pt]
+
+Biais algorithmiques
+  & Discrimination, audits nécessaires, perception d'équité
+  & Bankins et al.~(2024), Croitoru et al.~(2025),
+    Kayusi et al.~(2025) \\[6pt]
+
+Engagement
+  & Conditions de Kahn, théorie~COR, double effet de l'IA~;
+    clusters éthique / autonomie / stress / santé mentale
+  & Tortorella et al.~(2025), Qian et al.~(2025),
+    Soulami et al.~(2024) \\[6pt]
+
+Engagement professionnel
+  & Usage IA → \emph{job crafting} → engagement~; \emph{AI awareness}
+    modère négativement
+  & Liu \& Chen~(2025) \\[6pt]
+
+Satisfaction
+  & +51,3~\% de satisfaction, poids de la confiance et de la transparence
+  & Kayusi et al.~(2025), Sharma \& Gupta~(2025) \\[6pt]
+
+Anxiété
+  & Peur de substitution, rupture de contrat psychologique,
+    \emph{AI awareness} comme frein
+  & Qian et al.~(2025), Ateeq et al.~(2025), Bankins et al.~(2024),
+    Liu \& Chen~(2025) \\[6pt]
+
+IA centrée sur l'humain
+  & Cadres éthiques, gouvernance, \emph{human-in-the-loop},
+    collaboration homme--IA
+  & Sundari et al.~(2025), Ateeq et al.~(2025), Sharma \& Gupta~(2025),
+    Benabou \& Touhami~(2025a, 2025b) \\[6pt]
+
+Formation \& transfor-\\mation RH
+  & IA redéfinit les fonctions RH ; montée en compétences
+    indispensable ; rôle émergent du facilitateur numérique
+  & Almuhanna~(2025), Wagh~(2025),
+    Benabou \& Touhami~(2025a) \\
+
+\end{longtable}
+
+\subsection{Discussion}
+
+Cette analyse croisée des 23~articles fait ressortir une tension majeure au cœur de la
+relation IA--bien-être~: les mêmes technologies qui optimisent et personnalisent sont aussi
+celles qui menacent la vie privée et provoquent de l'anxiété. Voilà toute la problématique
+«~entre gains d'efficacité et risques liés aux données~».
+
+Quelques constats se dégagent. D'abord, les gains d'efficacité sont bien quantifiés~: les
+études de Kayusi et al.~(2025), Chheda et al.~(2025) et Mahmood et al.~(2025) apportent
+des données solides sur l'amélioration des process. Ensuite, les risques éthiques sont moins
+souvent chiffrés mais systématiquement repérés~: chaque article cite au moins un problème
+lié aux données. Enfin, la satisfaction et l'acceptation dépendent de la transparence, de
+l'équité et du maintien du contrôle humain -- trois leviers pour les organisations qui
+veulent maximiser le bien-être de leurs parties prenantes.
+
+Les études de Soulami et al.~(2024) et Liu et Chen~(2025) apportent un éclairage
+complémentaire~: le bien-être n'est pas un résultat passif de l'IA, mais une construction
+active qui repose sur les stratégies d'adaptation (job crafting, montée en compétences) et
+sur la qualité de l'environnement organisationnel (autonomie, soutien, transparence).
+Benabou et Touhami~(2025a, 2025b) et Almuhanna~(2025) convergent vers le même
+constat~: l'IA augmente plutôt qu'elle ne remplace l'humain, à condition que les
+organisations investissent dans des cadres éthiques et des stratégies de collaboration
+homme--machine.
+
+Du point de vue consommateur, les résultats RH sont transférables~: mêmes mécanismes
+de personnalisation, de prédiction et d'automatisation~; mêmes risques de biais, de
+surveillance et de perte de contrôle~; et les cadres éthiques proposés (transparence,
+explicabilité, recours humain) valent aussi bien pour les services B2C que pour les RH
+internes.
+
+\subsection{Limites de la littérature existante}
+
+Le corpus est riche, mais il y a quelques limites. D'abord, la plupart des études regardent
+surtout la GRH, ce qui réduit l'application directe au domaine de la consommation. Ensuite,
+les études quantitatives (Kayusi et al.~2025~; Sharma \& Gupta~2025~; Croitoru et al.~2025)
+reposent souvent sur des échantillons de convenance dans certains pays (Inde, Roumanie,
+Chine), ce qui pose des questions de validité externe. Enfin, les études longitudinales
+manquent~: la plupart des travaux donnent des images à l'instant~$t$ sans suivre l'évolution
+des perceptions.
+
+Il convient également de noter que les revues bibliométriques et systématiques (Soulami
+et al.~2024~; Benabou \& Touhami 2025a, 2025b~; Sharma et al.~2025) offrent une vue
+macroscopique utile mais doivent être complétées par des études empiriques primaires,
+notamment sur les populations de consommateurs. L'article fondateur de Palos-Sánchez
+et al.~(2022), bien qu'antérieur à la période 2024--2025, reste pertinent pour situer
+historiquement la trajectoire de recherche sur l'IA en GRH~: il documente la montée en
+puissance du champ depuis 2018 et sa concentration initiale sur le recrutement, qui s'est
+depuis étendue à l'ensemble des fonctions RH et au bien-être des parties prenantes.
+
+% ─── RÉFÉRENCES ──────────────────────────────────────────────────────────────
+\newpage
+\section*{Références bibliographiques}
+\addcontentsline{toc}{section}{Références bibliographiques}
+
+\sloppy
+\begin{enumerate}
+
+\item Ateeq, K., Oswal, N., Jawabri, A., Masaeid, T.~A., Alquqa, E.~K., Basha, S.~E.,
+  \& Alami, R. (2025). The transformative impact of artificial intelligence~(AI) on
+  organisational behaviour~(OB)~: A study of employee engagement, performance, and
+  ethical implications. \textit{Journal of Posthumanism}, \textit{5}(4), 1245--1256.
+
+\item Bankins, S., et al. (2024). A multilevel review of artificial intelligence in
+  organizations~: Implications for organizational behavior. \textit{Journal of
+  Organizational Behavior}, \textit{45}, 159--182.
+
+\item Biswas, O., Sharma, P., Das, S., \& Bharti, L. (2025). A study on the impact of
+  artificial intelligence on human resource management. \textit{International Journal of
+  Scientific Research in Engineering and Management~(IJSREM)}, \textit{9}(4).
+
+\item Chheda, K., Thakur, U., J., R., Prasad Das, G., Parashar, M.~K., \& Reddy, K.
+  (2025). AI-powered human resource management for enhancing employee recruitment
+  efficiency and talent retention in organizations. \textit{Management (Montevideo)},
+  \textit{3}, 165.
+
+\item Croitoru, G., et al. (2025). Artificial intelligence in human resource management
+  and its impact on employee motivation. \textit{Annals of Dunarea de Jos University,
+  Fascicle~I}.
+
+\item Kayusi, S., et al. (2025). AI-driven HR analytics~: Enhancing workforce
+  decision-making through predictive insights. \textit{REMUVAC}, \textit{214},
+  558--582.
+
+\item Kessavane, I. (2025). AI and machine learning in human resource data analytics for
+  performance management. \textit{International Journal on Science and Technology
+  (IJSAT)}, article n\textsuperscript{o}~3729.
+
+\item Mahmood, A., et al. (2025). HR tech and employee experience~: Exploring the role
+  of AI, automation, and people analytics in modern workplaces. \textit{Indus Journal
+  of Social Sciences}, \textit{1}(1--3).
+
+\item Pandit, V. (2025). The role of artificial intelligence in transforming human
+  resource management. \textit{International Journal of Scientific Research in
+  Engineering and Management (IJSREM)}, \textit{9}(2).
+
+\item Qian, X., et al. (2025). How does AI usage in the workplace affect employees'
+  innovative behavior~? \textit{Behavioral Sciences}, \textit{15}, 465.
+
+\item Rathore, S., \& Rathore, A. (2024). Machine learning applications in human
+  resource management. \textit{International Journal of Global Academic Scientific
+  Research~(IJGASR)}, \textit{3}(2), 77.
+
+\item Sharma, A., \& Gupta, S. (2025). Artificial intelligence in HRM~: A mixed-methods
+  study. \textit{Indian Journal of Engineering Sciences}, \textit{11}(24s), 259.
+
+\item Sharma, M., et al. (2025). Artificial intelligence and employee engagement~: A
+  bibliometric analysis. \textit{Information~(MDPI)}, \textit{16}, 555.
+
+\item Singh, P. (2025). A comprehensive review of artificial intelligence in human
+  resource management. \textit{Brixton Scholarly Review}, 76--95.
+
+\item Sundari, T., et al. (2025). A systematic literature review on AI in HRM~: Towards
+  a human-centered framework. \textit{International Research Journal of Advanced
+  Engineering and Management~(IRJAEM)}, \textit{3}(10), 3010--3022.
+
+\item Tortorella, G., et al. (2025). How does artificial intelligence impact employee
+  engagement in lean organisations~? \textit{International Journal of Production
+  Research}.
+
+  % ── Nouvelles références ──────────────────────────────────────────────────
+
+\item Almuhanna, N.~A. (2025). The role of artificial intelligence in transforming
+  human resource management processes~: An analytical study. \textit{Academic Journal
+  of Research and Scientific Publishing~(AJRSP)}, \textit{7}(79).
+
+\item Benabou, A., \& Touhami, F. (2025a). Empowering human resource management through
+  artificial intelligence~: A systematic literature review and bibliometric analysis.
+  \textit{International Journal of Production Management and Engineering~(IJPME)},
+  \textit{13}(1), 59--76.
+  \url{https://doi.org/10.4995/ijpme.2025.21900}
+
+\item Benabou, A., \& Touhami, F. (2025b). Artificial intelligence in human resource
+  management~: A PRISMA-based systematic review. \textit{Acta Informatica Pragensia},
+  \textit{14}(3), 489--505.
+  \url{https://doi.org/10.18267/j.aip.264}
+
+\item Liu, X., \& Chen, Y. (2025). The impact of artificial intelligence usage on
+  employee career commitment~: The moderating role of artificial intelligence awareness.
+  \textit{American Journal of Applied Psychology}, \textit{14}(3), 101--112.
+  \url{https://doi.org/10.11648/j.ajap.20251403.14}
+
+\item Palos-Sánchez, P.~R., Baena-Luna, P., Badicu, A., \& Infante-Moro, J.~C. (2022).
+  Artificial intelligence and human resources management~: A bibliometric analysis.
+  \textit{Applied Artificial Intelligence}, \textit{36}(1), e2145631.
+  \url{https://doi.org/10.1080/08839514.2022.2145631}
+
+\item Soulami, M., Benchekroun, S., \& Galiulina, A. (2024). Exploring how AI adoption
+  in the workplace affects employees~: A bibliometric and systematic review.
+  \textit{Frontiers in Artificial Intelligence}, \textit{7}, 1473872.
+  \url{https://doi.org/10.3389/frai.2024.1473872}
+
+\item Wagh, R.~K. (2025). Exploring the role of AI and automation in human resource
+  training~: Opportunities and challenges. \textit{International Journal of Research
+  in Human Resource Management~(IJRHRM)}, \textit{7}(2), 245--251.
+  \url{https://doi.org/10.33545/26633213.2025.v7.i2c.349}
+
+\end{enumerate}
+
+\end{document}
